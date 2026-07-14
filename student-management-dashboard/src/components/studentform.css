@@ -1,0 +1,156 @@
+/* Page */
+body {
+    margin: 0;
+    padding: 0;
+    background: #65986766;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Main Container */
+  .students-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+  }
+  
+  /* ========================= */
+  /* Form */
+  /* ========================= */
+  
+  .form-container {
+    background: #a8f1b90a;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    margin-bottom: 40px;
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 25px;
+  }
+  
+  .form-group {
+    margin-bottom: -13px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: -3px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 29%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  
+  /* Buttons */
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .add-btn,
+  .reset-btn {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .add-btn {
+    background: #007bff;
+  }
+  
+  .add-btn:hover {
+    background: #0056b3;
+  }
+  
+  .reset-btn {
+    background: #6c757d;
+  }
+  
+  .reset-btn:hover {
+    background: #4f565d;
+  }
+  
+  /* ========================= */
+  /* Table */
+  /* ========================= */
+  
+  .table-live-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  }
+  
+  .students-live-table {
+    text-align: center;
+    color: #050a10;
+    margin-bottom: 20px;
+  }
+  
+  .students-live-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .students-live-table th {
+    background: #e3aaaa;
+    color: white;
+    padding: 15px;
+  }
+  
+  .students-live-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .students-live-table tbody tr:nth-child(even) {
+    background: #f8f9fa;
+  }
+  
+  .students-live-table tbody tr:hover {
+    background: #dcecff;
+    transition: .3s;
+  }
+  
+  @media (max-width:768px) {
+  
+  .students-live-table{
+  display:block;
+  overflow-x:auto;
+  }
+  
+  .button-group{
+  flex-direction:column;
+  }
+  
+  .add-btn,
+  .reset-btn{
+  width:100%;
+  }
+  
+  }
